@@ -14,7 +14,7 @@ nav {
     color: var(--Dark-01, #181818);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Open Sans;
-    font-size: 45px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -29,7 +29,7 @@ nav > ul{
 }
 nav li{
     list-style: none;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 nav a {
     text-decoration: none;
@@ -51,14 +51,90 @@ nav a {
 /* header related style */
 .headc{
     background-color:antiquewhite;
+    background-image:url(../images/header_bg.png) ;
+    background-repeat:no-repeat ;
+    background-position: bottom right;
+    background-size: 600px;
 }
 .banner{
-    padding:30px 30px 30px 150px;
+    padding:30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
+    margin-right: -30px;
 
+}
+.abc{
+    font-family: 'Rowdies', sans-serif;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 0;
+
+}
+.btt{
+    font-size: 55px;
+    color: cadetblue;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.bgt{
+    font-size: 25px;
+    margin-bottom: 0;
+    color: goldenrod;
+}
+.banner_content{
+    max-width: 600px;
+}
+/* Main Section Style */
+/* About section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 30px 30px 30px 180px;
+}
+.section-tittle{
+        color:#181818;
+        text-align: center;
+        font-family: 'Rowdies', sans-serif;
+        font-family: 'Zilla Slab', serif;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.section-description{
+    color:#181818;
+    text-align: center;
+    font-family: 'Rowdies', sans-serif;
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: normal;
+}
+.kk{
+    font-family: 'Rowdies', sans-serif;
+    font-family: 'Zilla Slab', serif;
+}
+main{
+    max-width: 1140px;
+    margin 0 auto;
+}
+.about-info-container{
+    display:flex;
+    justify-content: space-around;
+}
+.about-info{
+    background-color: bisque;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    text-align: center;
+    padding: 5px 5px 15px 5px;
 }
