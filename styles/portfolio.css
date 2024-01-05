@@ -7,6 +7,7 @@ nav {
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    margin:0 200px;
 
 }
 .hh{
@@ -24,6 +25,7 @@ nav {
 nav > ul{
     display: flex;
     align-items: center;
+    
 }
 nav li{
     list-style: none;
@@ -44,4 +46,19 @@ nav a {
     font-style: normal;
     font-weight: 700;
     padding: 10px 12px 10px 12px;
+    
+}
+/* header related style */
+.headc{
+    background-color:antiquewhite;
+}
+.banner{
+    padding:30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+    width: 400px;
+    height: 400px;
+
 }
