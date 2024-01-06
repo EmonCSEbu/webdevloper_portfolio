@@ -138,3 +138,38 @@ main{
     text-align: center;
     padding: 5px 5px 15px 5px;
 }
+.section-description{
+    padding:30px 150px:
+}
+.sssd{
+    margin: 30px 30px 30px 180px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around ;
+    margin: 0px 10px 10px 150px;
+
+    
+}
+
+.skill{
+        padding:15px;
+        font-family: 'Rowdies', sans-serif;
+        font-family: 'Zilla Slab', serif;
+        text-align: center;
+        background-color:cornsilk;
+        /* clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%); */
+        margin:10px 10px 10px 10px;
+        border-radius: 20px;
+        box-shadow:#FFF8F3;
+        
+}
+/* resume */
+.resume-colume-tittle{
+    color: #474747;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
